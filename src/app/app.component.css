@@ -1,0 +1,30 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #242424;
+  min-height: 100vh;
+  font-family: "Roboto Light", serif;
+  font-size: 16px;
+}
+
+.btn-compteur {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+button {
+  padding: 10px;
+  background-color: #373737;
+  color: #FFFFFF;
+}
+
+.title {
+  color: #FFFFFF;
+  text-align: center;
+}

@@ -1,0 +1,25 @@
+.container-count {
+  color: #FFFFFF;
+}
+.init {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 50px;
+  min-width: 500px;
+}
+.container-count p {
+  margin-bottom: 20px;
+}
+.barColor {
+  background-color: #373737;
+  width: 768px;
+}
+.init .bar {
+  height: 24px;
+}
+
+.init .number {
+  min-width: 40px;
+}
+

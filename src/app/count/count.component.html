@@ -1,0 +1,21 @@
+<div class="container-count">
+  <p>{{ titleBar }}</p>
+  <div class="init">
+    <div *ngIf="case50" class="number">{{ amount + countLocalCase50}}%</div>
+    <div *ngIf="case25" class="number">{{ amount + countLocalCase25}}%</div>
+    <div *ngIf="case50" class="barColor">
+      <div class="bar" [ngStyle]="{
+        'width.vh': (amount+countLocalCase50),
+        'backgroundColor': backgroundColorCase50
+        }">
+      </div>
+    </div>
+    <div *ngIf="case25" class="barColor">
+      <div class="bar" [ngStyle]="{
+        'width.vh': (amount+countLocalCase25),
+        'backgroundColor': backgroundColorCase25
+        }">
+      </div>
+    </div>
+  </div>
+</div>
